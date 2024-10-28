@@ -1,0 +1,43 @@
+/* general styling */
+*{
+    padding : 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: lightcoral;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+a{
+    text-decoration: none;
+    outline: none;
+}
+/* general styling end */
+
+/* button styling */
+.btn{
+    background-color: rgba(0, 0, 255, 1);
+    color: wheat;
+    font-size: 1.5rem;
+    padding:2rem;
+    border: none;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+/* button styling end */
+
+/* video styling */
+.vid{
+    position: absolute;
+}
+/* video styling end */
